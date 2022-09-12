@@ -4,6 +4,7 @@
     box-sizing: border-box;
   }
 
+  /* inizio proprietà css per header */
  header {
     height: 15vh;
     background-color: #4EA0FF;
@@ -18,16 +19,58 @@
     margin-left: 3%;
   }
 
-  main{
+/* fine proprietà CSS per header */
+
+/* parte centrale */
+
+  main {
     width: 80%;
     margin: auto;
     margin-top: 8px;
   }
 
-  main h5 h6 {
+  main h4,h6 {
     color: grey;
   }
 
-  main span {
+  main .aqua {
     color: aqua;
   }
+
+  main .highlighter {
+   background-color: yellow;
+  }
+
+ul {
+    margin : 20px 15px; 
+}
+
+/* proprietà tabella */
+
+table{
+    width: 100%;
+    border-spacing : 0; 
+    font-size 15px;
+    text-align: left; 
+    table-layout: fixed;
+}
+thead{
+    background-color: #20A9E5;
+    color: white;
+}
+
+.first-column {
+    width: 30%;
+    background-color: #B1E5F2;
+}
+
+.center-column {
+    width: 30%;
+}
+
+.last-column {
+    width: 40%;
+    background-color: #B1E5F2;
+}
+
+/* fine tabella  */
