@@ -74,3 +74,37 @@ thead{
 }
 
 /* fine tabella  */
+
+/* parte finale due immagini */
+
+footer {
+    width: 80%;
+    margin: auto;
+}
+
+footer h4 {
+    color: grey;
+}
+
+.prima-immagine{
+    margin-top: 10px;
+    background-image: url(../img/monitor.jpg);
+    background-position: center;
+    width: 210px;
+    height: 120px; 
+}
+
+footer span {
+    color: white;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.seconda-immagine{
+    margin-top: 10px;
+    background-image: url(../img/graph.jpg);
+    background-position: center;
+    width: 210px;
+    height: 120px; 
+    margin-bottom: 10px;
+}
