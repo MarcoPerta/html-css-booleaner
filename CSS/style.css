@@ -1,0 +1,33 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ header {
+    height: 15vh;
+    background-color: #4EA0FF;
+    background-image: url(../img/pattern.png);
+    background-size: 30%;
+  }
+
+  header img {
+    margin-top: 2%;
+    height: 80px;
+    width: 150px;
+    margin-left: 3%;
+  }
+
+  main{
+    width: 80%;
+    margin: auto;
+    margin-top: 8px;
+  }
+
+  main h5 h6 {
+    color: grey;
+  }
+
+  main span {
+    color: aqua;
+  }
