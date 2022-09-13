@@ -13,20 +13,17 @@
   }
 
   header img {
-    margin-top: 2%;
     height: 80px;
     width: 150px;
-    margin-left: 3%;
   }
 
 /* fine proprietà CSS per header */
 
 /* parte centrale */
 
-  main {
+  main, footer, .Container {
     width: 80%;
-    margin: auto;
-    margin-top: 8px;
+    margin: auto; 
   }
 
   main h4,h6 {
@@ -77,11 +74,6 @@ thead{
 
 /* parte finale due immagini */
 
-footer {
-    width: 80%;
-    margin: auto;
-}
-
 footer h4 {
     color: grey;
 }
@@ -97,7 +89,7 @@ footer h4 {
 footer span {
     color: white;
     font-size: 18px;
-    padding-top: 15px;
+    padding: 15px;
 }
 
 .seconda-immagine{
